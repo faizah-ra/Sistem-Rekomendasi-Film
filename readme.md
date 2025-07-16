@@ -7,7 +7,7 @@ Sistem rekomendasi film ini dirancang untuk membantu pengguna menemukan tontonan
 
 ## 🔍 Studi Kasus dan Permasalahan
 
-Dalam platform streaming seperti Netflix, Disney+, dan Amazon Prime, banyaknya pilihan konten dapat menyebabkan **information overload**. Tujuan proyek ini adalah untuk mengurangi kebingungan pengguna melalui sistem rekomendasi yang relevan.
+Dalam ekosistem platform streaming seperti Netflix, Disney+, dan Amazon Prime, pengguna dihadapkan pada ribuan pilihan konten yang dapat menyebabkan information overload. Hal ini menimbulkan tantangan dalam menemukan film yang sesuai preferensi. Sistem rekomendasi ini bertujuan untuk mengurangi beban kognitif pengguna dan meningkatkan pengalaman menonton secara personal.
 
 ---
 
@@ -24,7 +24,6 @@ Dalam platform streaming seperti Netflix, Disney+, dan Amazon Prime, banyaknya p
 - **Python**, Pandas, NumPy, Scikit-Learn
 - **Keras** (Tensorflow) untuk model neural network
 - **Matplotlib & Seaborn** untuk visualisasi
-- **Streamlit** *(opsional)* untuk UI demo
 - Dataset: [MovieLens Small Dataset](https://www.kaggle.com/datasets/shubhammehta21/movie-lens-small-latest-dataset)
 
 ---
@@ -34,7 +33,6 @@ Dalam platform streaming seperti Netflix, Disney+, dan Amazon Prime, banyaknya p
 ```
 movie-recommender-portfolio/
 ├── README.md
-├── app.py                  # Aplikasi utama (opsional: Streamlit)
 ├── requirements.txt        # Dependencies
 ├── notebooks/              # Notebook EDA & Modeling
 ├── src/                    # Kode modular (preprocessing, modeling)
@@ -51,7 +49,6 @@ Tersedia di folder `docs/`:
 - ✅ **DFD Level 0 & 1**: Alur data antar entitas dan proses utama
 - ✅ **ERD**: Struktur relasional dari dataset `ratings.csv` dan `movies.csv`
 - ✅ **UML Use Case & Sequence**: Interaksi pengguna dan sistem rekomendasi
-- ✅ **Mockup UI**: Tampilan input judul film & hasil rekomendasi
 - ✅ **Proposal & Laporan PDF**: Dokumen ilmiah lengkap
 
 ---
@@ -79,7 +76,7 @@ pip install -r requirements.txt
 ## 👩‍💻 Tentang Pengembang
 
 **Faizah Rizki Auliawati**  
-Mahasiswa Informatika dengan fokus pada *Machine Learning* dan *System Analysis*. Proyek ini merupakan bagian dari portofolio ilmiah dan praktikal untuk pengembangan sistem cerdas berbasis rekomendasi.
+Mahasiswa Informatika sekaligus seorang Data Enthusiast dengan minat mendalam pada bidang Machine Learning, System Analysis, dan pengembangan solusi berbasis data. Proyek ini merupakan bagian dari portofolio ilmiah dan praktikal untuk pengembangan sistem cerdas berbasis rekomendasi.
 
 ---
 
