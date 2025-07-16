@@ -1,5 +1,5 @@
-# Laporan Proyek Machine Learning - Faizah Rizki Auliawati
-
+# LLAPORAN PROYEK SISTEM REKOMENDASI FILM BERBASIS MACHINE LEARNING 
+Disusun oleh: Faizah Rizki Auliawati
 
 ## Project Overview
 
@@ -525,7 +525,18 @@ Sistem rekomendasi yang dibangun berhasil memberikan hasil yang relevan dan pers
 - **Hybrid Filtering:** Menggabungkan keunggulan CBF dan CF untuk hasil rekomendasi yang lebih akurat dan stabil.
 - **Deep Learning Berbasis Sequence:** Memanfaatkan model RNN atau Transformer untuk menangkap pola interaksi pengguna secara lebih kompleks dan dinamis.
 - **Context-Aware Recommender:** Menambahkan konteks seperti waktu, perangkat, dan lokasi pengguna untuk meningkatkan personalisasi dan relevansi rekomendasi.
-
 Dengan implementasi dan pengembangan berkelanjutan, sistem rekomendasi film ini dapat terus meningkat dan memberikan pengalaman pengguna yang lebih memuaskan.
 
+## Diagram Sistem
+Berikut adalah diagram visualisasi sistem rekomendasi film yang mendukung pemahaman analisis dan arsitektur:
+### Data Flow Diagram (DFD)
+<img width="1423" height="330" alt="graphviz (1)" src="https://github.com/user-attachments/assets/4cbad106-652f-4901-a94e-8544f25292ac" />
+### Entity Relationship Diagram (ERD)
+<img width="781" height="373" alt="graphviz (2)" src="https://github.com/user-attachments/assets/09e1d476-40e2-41fd-b826-e297e1ff3bb1" />
+### UML Use Case Diagram
+<img width="1288" height="418" alt="graphviz (3)" src="https://github.com/user-attachments/assets/8245f691-62db-4bb9-a249-ccb89c1a6142" />
+### UML Sequence Diagram
+<img width="1345" height="270" alt="graphviz (4)" src="https://github.com/user-attachments/assets/02d9a4ea-3d12-43b3-9090-1ef76b9232b8" />
+### Diagram Arsitektur Proses Hybrid Filtering
+<img width="990" height="997" alt="graphviz" src="https://github.com/user-attachments/assets/6883de29-64e8-49fd-b95f-4301a001be4b" />
 
