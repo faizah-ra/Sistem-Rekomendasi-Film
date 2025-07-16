@@ -1,5 +1,7 @@
 
 # 🎬 Movie Recommendation System using Hybrid Filtering
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 
 Sistem rekomendasi film ini dirancang untuk membantu pengguna menemukan tontonan yang relevan dan personal berdasarkan **preferensi konten** maupun **pola perilaku pengguna lain**. Proyek ini dibangun menggunakan pendekatan **Content-Based Filtering (CBF)** dan **Collaborative Filtering (CF)** berbasis *neural network*.  
 
