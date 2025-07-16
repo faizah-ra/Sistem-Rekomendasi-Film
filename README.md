@@ -34,27 +34,15 @@ Dalam ekosistem platform streaming seperti Netflix, Disney+, dan Amazon Prime, p
 
 ```
 movie-recommender-portfolio/
-├── README.md
-├── requirements.txt        # Dependencies
-├── notebooks/              # Notebook EDA & Modeling
-├── src/                    # Kode modular (preprocessing, modeling)
-├── preview/                # Screenshot hasil
-├── docs/                   # Diagram DFD, UML, ERD, Mockup, Proposal, Laporan
-└── .gitignore              # File yang diabaikan Git
+├── LICENSE                              # Lisensi proyek (MIT)
+├── README.md                            # Dokumentasi utama
+├── requirements.txt                     # Dependensi proyek
+├── laporan_sistem_rekomendasi_film.md   # Laporan lengkap proyek
+├── sistem_rekomendasi_film.ipynb        # Notebook utama (EDA + Modeling)
+└── sistem_rekomendasi_film.py           # Versi Python script (.py)
 ```
 
 ---
-
-## 📊 Diagram Sistem & Dokumen Pendukung
-
-Tersedia di folder `docs/`:
-- ✅ **DFD Level 0 & 1**: Alur data antar entitas dan proses utama
-- ✅ **ERD**: Struktur relasional dari dataset `ratings.csv` dan `movies.csv`
-- ✅ **UML Use Case & Sequence**: Interaksi pengguna dan sistem rekomendasi
-- ✅ **Proposal & Laporan PDF**: Dokumen ilmiah lengkap
-
----
-
 ## 📈 Hasil Evaluasi
 
 | Model | Precision@5 | MAP@5 | RMSE | MAE |
