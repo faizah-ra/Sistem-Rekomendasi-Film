@@ -37,8 +37,8 @@ Sistem-Rekomendasi-Film/
 ├── assets/                              # Folder berisi aset gambar dan visual pendukung
 ├── LICENSE                              # Lisensi proyek (MIT)
 ├── README.md                            # Dokumentasi utama
+├── laporan_proyek.md                    # Laporan lengkap proyek
 ├── requirements.txt                     # Dependensi proyek
-├── laporan_sistem_rekomendasi_film.md   # Laporan lengkap proyek
 ├── sistem_rekomendasi_film.ipynb        # Notebook utama (EDA + Modeling)
 └── sistem_rekomendasi_film.py           # Versi Python script (.py)
 ```
