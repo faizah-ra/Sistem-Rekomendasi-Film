@@ -33,7 +33,7 @@ Dalam ekosistem platform streaming seperti Netflix, Disney+, dan Amazon Prime, p
 ## 📁 Struktur Repository
 
 ```
-Sistem-Rekomendasi-Film/
+sistem-rekomendasi-film/
 ├── assets/                              # Folder berisi aset gambar dan visual pendukung
 ├── LICENSE                              # Lisensi proyek (MIT)
 ├── README.md                            # Dokumentasi utama
