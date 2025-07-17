@@ -13,6 +13,7 @@ Dalam era digital yang sarat akan konten hiburan, pengguna platform streaming se
   - Tingginya bounce rate karena ketidaksesuaian konten,
   - Rendahnya retention rate dan waktu tonton,
   - Menurunnya kepuasan pengguna akibat tidak adanya personalisasi konten.
+    
 Untuk itu, sistem rekomendasi menjadi solusi penting dalam menyederhanakan proses pemilihan film dan meningkatkan pengalaman pengguna secara personal.
 
 
