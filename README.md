@@ -33,7 +33,7 @@ Dalam ekosistem platform streaming seperti Netflix, Disney+, dan Amazon Prime, p
 ## 📁 Struktur Repository
 
 ```
-movie-recommender-portfolio/
+Sistem-Rekomendasi-Film/
 ├── assets/                              # Folder berisi aset gambar dan visual pendukung
 ├── LICENSE                              # Lisensi proyek (MIT)
 ├── README.md                            # Dokumentasi utama
@@ -60,7 +60,7 @@ movie-recommender-portfolio/
 ```bash
 pip install -r requirements.txt
 ```
-3. Jalankan kode dari `app.py` atau `notebooks/`
+3. Jalankan kode dari `notebooks/`
 
 ---
 
