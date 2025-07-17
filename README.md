@@ -34,6 +34,7 @@ Dalam ekosistem platform streaming seperti Netflix, Disney+, dan Amazon Prime, p
 
 ```
 movie-recommender-portfolio/
+├── assets/                              # Folder berisi aset gambar dan visual pendukung
 ├── LICENSE                              # Lisensi proyek (MIT)
 ├── README.md                            # Dokumentasi utama
 ├── requirements.txt                     # Dependensi proyek
