@@ -7,17 +7,25 @@ Sistem rekomendasi film ini dirancang untuk membantu pengguna menemukan tontonan
 
 ---
 
-## 🔍 Studi Kasus dan Permasalahan
+## 💼 Latar Belakang Bisnis
 
-Dalam ekosistem platform streaming seperti Netflix, Disney+, dan Amazon Prime, pengguna dihadapkan pada ribuan pilihan konten yang dapat menyebabkan information overload. Hal ini menimbulkan tantangan dalam menemukan film yang sesuai preferensi. Sistem rekomendasi ini bertujuan untuk mengurangi beban kognitif pengguna dan meningkatkan pengalaman menonton secara personal.
+Dalam era digital yang sarat akan konten hiburan, pengguna platform streaming seperti Netflix, Disney+, dan Amazon Prime sering kali mengalami information overload akibat ribuan pilihan film yang tersedia. Tanpa sistem rekomendasi yang efektif, pengguna bisa merasa kewalahan, mengakibatkan:
+  - Tingginya bounce rate karena ketidaksesuaian konten,
+  - Rendahnya retention rate dan waktu tonton,
+  - Menurunnya kepuasan pengguna akibat tidak adanya personalisasi konten.
+Untuk itu, sistem rekomendasi menjadi solusi penting dalam menyederhanakan proses pemilihan film dan meningkatkan pengalaman pengguna secara personal.
+
+
 
 ---
 
 ## 🎯 Tujuan Proyek
+Proyek ini dikembangkan untuk membangun sistem rekomendasi film yang:
+  - Memberikan rekomendasi berbasis kemiripan konten film menggunakan TF-IDF dan Cosine Similarity (Content-Based Filtering / CBF),
+  - Memberikan rekomendasi berbasis interaksi pengguna melalui Neural Collaborative Filtering menggunakan arsitektur RecommenderNet (Collaborative Filtering / CF),
+  - Mengukur performa kedua pendekatan menggunakan metrik evaluasi seperti Precision@K, MAP@K, RMSE, dan MAE.
+Solusi ini juga dirancang agar dapat dengan mudah diintegrasikan ke dalam sistem OTT (Over-The-Top) sebagai modul rekomendasi adaptif, dengan potensi pengembangan menuju pendekatan context-aware dan real-time recommendation.
 
-- Membangun sistem rekomendasi berbasis **TF-IDF + Cosine Similarity** (CBF)
-- Membangun model rekomendasi berbasis **Neural Collaborative Filtering** (RecommenderNet)
-- Membandingkan hasil kedua pendekatan menggunakan metrik evaluasi seperti Precision@K, MAP@K, RMSE, dan MAE
 
 ---
 
@@ -51,6 +59,13 @@ sistem-rekomendasi-film/
 | CBF   | 0.1600      | 0.0991| -    | -   |
 | CF    | -           | -     | 0.9270| 0.7108 |
 
+---
+## 💡 Insight Bisnis
+  - Pendekatan hybrid antara CBF dan CF terbukti mampu menangani permasalahan cold-start user maupun sparse rating matrix dengan baik.
+  - Model CF berbasis neural network menawarkan potensi personalisasi yang lebih tinggi seiring bertambahnya data interaksi pengguna.
+  - CBF tetap relevan untuk pengguna baru atau konten baru tanpa histori rating.
+  - Kombinasi kedua pendekatan ini dapat dikembangkan menjadi sistem rekomendasi real-time yang adaptif dengan bantuan data kontekstual (lokasi, waktu, device).
+  - Sistem ini berpeluang besar diintegrasikan sebagai komponen rekomendasi dalam platform streaming, e-commerce, hingga aplikasi edukasi berbasis video.
 ---
 
 ## 🚀 Cara Menjalankan
