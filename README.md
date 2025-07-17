@@ -63,6 +63,16 @@ pip install -r requirements.txt
 
 ---
 
+🏆 Pengakuan Proyek
+Proyek ini merupakan bagian dari Submission Proyek Akhir Kelas Machine Learning Terapan yang diselenggarakan oleh Dicoding Indonesia, dalam program Coding Camp 2025 powered by DBS Foundation.
+
+✅ Proyek ini telah dinyatakan lulus dengan sempurna (rating lima bintang ⭐⭐⭐⭐⭐) oleh reviewer resmi Dicoding, yang menyatakan bahwa:
+
+"Proyek Sistem Rekomendasi yang kamu kerjakan adalah proyek yang sangat menarik! Kamu telah menerapkannya dengan sangat baik. Kamu memiliki pemahaman yang baik mengenai permasalahan, dataset, tujuan proyek, metode, dan model machine learning. Kamu juga mampu mengomunikasikan seluruh proyek dengan baik. Good job!"
+— Reviewer Dicoding
+
+---
+
 ## 👩‍💻 Tentang Pengembang
 
 **Faizah Rizki Auliawati**  
