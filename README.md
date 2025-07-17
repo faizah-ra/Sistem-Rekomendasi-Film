@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 ---
 
-🏆 Pengakuan Proyek
+## 🏆 Pengakuan Proyek
 Proyek ini merupakan bagian dari Submission Proyek Akhir Kelas Machine Learning Terapan yang diselenggarakan oleh Dicoding Indonesia, dalam program Coding Camp 2025 powered by DBS Foundation.
 
 ✅ Proyek ini telah dinyatakan lulus dengan sempurna (rating lima bintang ⭐⭐⭐⭐⭐) oleh reviewer resmi Dicoding, yang menyatakan bahwa:
