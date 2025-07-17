@@ -13,7 +13,6 @@ Dalam era digital yang sarat akan konten hiburan, pengguna platform streaming se
   - Tingginya bounce rate karena ketidaksesuaian konten,
   - Rendahnya retention rate dan waktu tonton,
   - Menurunnya kepuasan pengguna akibat tidak adanya personalisasi konten.
-    
 Untuk itu, sistem rekomendasi menjadi solusi penting dalam menyederhanakan proses pemilihan film dan meningkatkan pengalaman pengguna secara personal.
 
 
@@ -25,6 +24,7 @@ Proyek ini dikembangkan untuk membangun sistem rekomendasi film yang:
   - Memberikan rekomendasi berbasis kemiripan konten film menggunakan TF-IDF dan Cosine Similarity (Content-Based Filtering / CBF),
   - Memberikan rekomendasi berbasis interaksi pengguna melalui Neural Collaborative Filtering menggunakan arsitektur RecommenderNet (Collaborative Filtering / CF),
   - Mengukur performa kedua pendekatan menggunakan metrik evaluasi seperti Precision@K, MAP@K, RMSE, dan MAE.
+
 Solusi ini juga dirancang agar dapat dengan mudah diintegrasikan ke dalam sistem OTT (Over-The-Top) sebagai modul rekomendasi adaptif, dengan potensi pengembangan menuju pendekatan context-aware dan real-time recommendation.
 
 
